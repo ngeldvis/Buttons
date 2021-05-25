@@ -291,3 +291,41 @@ a {
     background: rgba(255,255,255,.2);
     opacity: 0.85;
 }
+
+.b13 {
+    padding: 13px 22px;
+
+    color: #425066;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+
+    background-color: #fff;
+    border-radius: 7px;
+
+    transition: color .3s, background-color .3s linear;
+}
+
+.b13:hover {
+    color: #fff;
+    background-color: #425066;
+}
+
+.b14 {
+    padding: 0 24px;
+    
+    color: #073042;
+    font-weight: bold;
+    line-height: 44px;
+    
+    border-radius: 96px;
+    border: 2px solid #073042;
+    background: transparent;
+
+    transition: background-color .2s linear, color .2s;
+}
+
+.b14:hover {
+    background-color: #073042;
+    color: #fff;
+}
